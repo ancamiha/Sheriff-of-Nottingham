@@ -33,12 +33,14 @@ ce contine cartile din sac.
 0, insa daca ea exista o ia, iar comerciantul ce a acordat mita isi pune cartile pe taraba.
 
 -In metoda makeBagBribed se ordoneaza pachetul de carti in functie de profit si id cu 
-comparatorul ProfitComparatorBribed si se verifica componenta pachetului initial de carti. Daca nu exista nicio carte ilegala in el se apeleaza metoda makeBag din Basic. Daca nu
+comparatorul ProfitComparatorBribed si se verifica componenta pachetului initial de carti.
+Daca nu exista nicio carte ilegala in el se apeleaza metoda makeBag din Basic. Daca nu
 se adauga cartile ilegala cu profitul cel mai mare cat timp sunt maxim 8 tinand cont si 
 de penalty-ul ce ar putea fi luat pe cartile respective la inspectie. Dupa ce se adauga se
 verifica cate s-au adaugat in sac si se stabileste mita. Daca sunt 1 sau 2 mita va fi 5, daca
 sunt mai mult de 2 mita va fi 10. Daca sacul nu s-a completat se adauga carti legale pana 
-cand se umple la fel, tinandu-se cont de penalty-ul ce ar putea exista. Returneaza un ArrayList ce contine cartile din sac.
+cand se umple la fel, tinandu-se cont de penalty-ul ce ar putea exista. Returneaza un ArrayList
+ce contine cartile din sac.
 -Metoda whenIsSheriffBribed inspecteaza mai intai jcatorul din stanga si din dreapta, iar in
 caz ca seriful nu are suficienti bani vecinii acestuia isi adauga cartile pe taraba. Atunci
 cand seriful ajunge la ceilalti jucatori si acestia vor sa dea mita, mita este scazuta din

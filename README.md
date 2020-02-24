@@ -8,4 +8,4 @@ The program reads from a file the input: number of rounds, number of players, th
 After the input was read the game simulates the rounds and writes at the end of the game the ranking by the points.
 
 ### Build with
-Java - for a object-oriented based implementation using design patterns
+Java - for an object-oriented based implementation using design patterns
